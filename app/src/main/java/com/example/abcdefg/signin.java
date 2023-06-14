@@ -10,14 +10,14 @@ import android.widget.Button;
 public class signin extends AppCompatActivity {
 
 
-    Button backToSignIn = (Button) findViewById(R.id.button2);
+    Button backToSignIn;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
-
+        backToSignIn = (Button) findViewById(R.id.button2);
         backToSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

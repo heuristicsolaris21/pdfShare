@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
-    TextView tx = (TextView) findViewById(R.id.textView);
+    TextView tx;
 
 
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        tx = (TextView) findViewById(R.id.textView);
         tx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
