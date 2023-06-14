@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396019415002",
+    "project_id": "pdfsignindata",
+    "storage_bucket": "pdfsignindata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396019415002:android:1f43d5bcb3e81b3185f2e3",
+        "android_client_info": {
+          "package_name": "com.example.abcdefg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396019415002-qpdcivk3nudhdbfq9ria1d7prsq3mjka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgWndTV4PaT896EIn26XB-aOq4LcBc1X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396019415002-qpdcivk3nudhdbfq9ria1d7prsq3mjka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
